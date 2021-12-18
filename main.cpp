@@ -48,7 +48,7 @@ int main(int argc, const char * argv[]) {
     srand(seed);
 
     //Select K-Fold segment
-    fold = 9;
+    fold = 2;
 
     //Read CSV File
     std::ifstream myFile("mammograph.csv");
